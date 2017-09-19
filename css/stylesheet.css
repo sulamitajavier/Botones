@@ -1,0 +1,279 @@
+/*fondo del body*/
+
+
+body{
+    background-image: url("https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-9/21430431_10207446901449924_5979102095639713494_n.jpg?oh=21364fdb8e28c1e81e8560cc84827f9d&oe=5A1D930C")
+
+}
+
+/* logo "Adóptame" */
+
+.logo {
+    
+    width: 100%;
+    margin:  auto;
+   background-color:white;
+}
+
+
+
+
+.logo img{
+    margin-left: 30%;
+
+}
+
+@media only screen and (max-width: 900px) {
+  .logo img{
+    max-width: 70%;
+    max-height: 50%;
+    margin-left: 18%;
+  }
+}
+
+/* Menú */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6BCAC9;
+ 
+     width: 100%;
+     margin:0 auto;
+}
+
+
+li {
+    display: inline-block;
+   margin:0 auto;
+
+
+   
+}
+
+li a, .abajo1 {
+    display: inline-block;
+    color: #3D2921;
+    text-align: center;
+    padding: 20px 10px ;
+    text-decoration: none;
+ 
+
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+
+
+
+li a {
+   text-align: center;
+   margin-left: 200px;
+   font-size: 20px;
+
+
+}
+
+li a:hover {
+    background-color: #F8AFB3;
+   }
+   
+
+/* intenté que funcionara el hover cuando se achicara la pag. pero no funciono */
+
+   @media only screen and (max-width: 900px) {
+ li a: hover {
+    max-width: 100%;
+    
+  }
+}
+
+@media only screen and (max-width: 900px) {
+ ul{
+    max-width: 100%;
+    
+  }
+}
+
+@media only screen and (max-width: 900px) {
+ li{
+    max-width: 20%;
+    
+  }
+}
+
+@media only screen and (max-width: 900px) {
+ li a{
+    max-width: 20%;
+    font-size: 0.8em;
+    margin-left: 110%;
+    
+  }
+}
+
+/* texto después del menú */
+
+.gracias {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 3%;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.gracias h1 {
+     font-family: 'Coming Soon';
+    color: #3D2921;
+}
+
+/* imágen de animales */
+
+.amor img {
+width: 40%;
+margin-left: 29.5%;
+margin-top: 3%;
+border: 13px solid #F8AFB3 ;
+border-radius: 10px;
+}
+
+
+/* descripción de animales/texto */
+
+
+.des {
+    width: 36%;
+    
+    margin-left: 29.5%;
+    margin-top: 1%;
+    padding: 1%;
+    margin-left: 44.5%;
+    ;
+}
+
+.des p {
+    font-size: 20px;
+     font-family: 'Coming Soon';
+     line-height: 130%;
+     color:#3D2921;
+     margin-top: 1%;
+
+}
+
+@media only screen and (max-width: 900px) {
+ .des {
+    margin-left: 35%;
+
+ }
+    
+  
+}
+
+
+
+/* contenedor de los tres botones */
+
+.tres {
+    
+    width: 35%;
+    margin-left: 35%;
+
+
+}
+
+
+
+/* botones individuales */
+
+.button {
+    background-color: #6BCAC9;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button2 {
+    background-color: #F8AFB3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+     border-radius: 10px;
+}
+
+.button3 {
+    background-color: #3D2921;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+     border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    border: 2px #6BCAC9;
+    margin-top: 4%;
+    background: #6BCAC9;
+}
+
+@media only screen and (max-width: 900px) {
+ footer h3{
+   text-align: left;
+   margin-right: 40%;
+
+ }
+    
+  
+/* estilos */
+
+
+}
+
+footer h3 {
+   font-family: 'Montserrat', sans-serif; 
+   margin-left: 43%;
+   color: #3D2921;
+
+}
+
+h4{
+    font-family: 'Coming Soon';
+    display: inline-block;
+    margin: auto;
+    color: #3D2921;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 20%;
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+
+
